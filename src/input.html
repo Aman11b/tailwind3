@@ -7,7 +7,29 @@
     <title>Tailwind 3</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1 class="[ text-green-600 ] [ font-bold ] ">
+        > text-green-600
+    </h1>
+    <h2 class="text-yellow-400">
+        > text-yellow-400
+    </h2>
+    <div class="[ text-white ] [ bg-black ]">
+        > background 
+    </div>
+    <div class="border-4 border-green-100">
+        > border, border-green
+    </div>
+    <div class="text-vgreen">
+        > custom color
+        ->tailwind.config.js
+        ->theme:{
+            colors:{
+                'vgreen':"49e659"
+            }
+        }
+        can custom colors,font-family,spacing
+    </div>
+
     
 </body>
 </html>
