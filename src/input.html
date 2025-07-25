@@ -10,15 +10,19 @@
     <h1 class="[ text-green-600 ] [ font-bold ] ">
         > text-green-600
     </h1>
+    <br>
     <h2 class="text-yellow-400">
         > text-yellow-400
     </h2>
+    <br>
     <div class="[ text-white ] [ bg-black ]">
         > background 
     </div>
+    <br>
     <div class="border-4 border-green-100">
         > border, border-green
     </div>
+    <br>
     <div class="text-vgreen">
         > custom color
         ->tailwind.config.js
@@ -27,8 +31,29 @@
                 'vgreen':"49e659"
             }
         }
-        can custom colors,font-family,spacing
     </div>
+    <br>
+    <div class="[ text-xs ][ sm:text-base md:text-lg ]">
+        media query text
+        min-width is used
+        so mobile first approach
+        <br>
+        for custom screen size<br>
+        screens:{
+            sm:'480px',
+            md:'768px',
+            lg:'976px',
+            xl:'1440px',
+        }
+    </div>
+    <br>
+    <div class="bg-[#badf55]">
+        plugin
+        helpers to create styleseet with js <br>
+        bg-[#badf55] (arbitary value)
+    </div>
+
+
 
     
 </body>

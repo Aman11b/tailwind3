@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* custom css */
+@layer base {
+    html{
+        background-color: lightblue;
+    }
+    html{
+        @apply bg-purple-400;
+    }
+    html{
+        @apply  text-lg font-bold text-green-200
+    }
+    html{
+        @apply bg-inherit text-inherit
+    }
+}
