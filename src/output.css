@@ -1,4 +1,6 @@
-*, ::before, ::after {
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +54,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -565,101 +567,250 @@ html{
   color: rgb(187 247 208 / var(--tw-text-opacity, 1));
   background-color: inherit;
   color: inherit;
+  font-family: "League Spartan", sans-serif;
 }
 
-.border {
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.whitespace-nowrap{
+  white-space: nowrap;
+}
+
+.whitespace-pre{
+  white-space: pre;
+}
+
+.whitespace-pre-line{
+  white-space: pre-line;
+}
+
+.break-normal{
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words{
+  overflow-wrap: break-word;
+}
+
+.break-all{
+  word-break: break-all;
+}
+
+.border{
   border-width: 1px;
 }
 
-.border-4 {
+.border-4{
   border-width: 4px;
 }
 
-.border-green-100 {
+.border-green-100{
   --tw-border-opacity: 1;
   border-color: rgb(220 252 231 / var(--tw-border-opacity, 1));
 }
 
-.bg-\[\#badf55\] {
+.bg-\[\#badf55\]{
   --tw-bg-opacity: 1;
   background-color: rgb(186 223 85 / var(--tw-bg-opacity, 1));
 }
 
-.bg-black {
+.bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.bg-red-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.bg-red-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.bg-teal-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 184 166 / var(--tw-bg-opacity, 1));
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-center{
+  text-align: center;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.font-mono{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.text-2xl {
+.font-sans{
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.text-3xl {
+.text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.font-bold {
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold{
   font-weight: 700;
 }
 
-.text-green-600 {
+.uppercase{
+  text-transform: uppercase;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.normal-case{
+  text-transform: none;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.not-italic{
+  font-style: normal;
+}
+
+.leading-5{
+  line-height: 1.25rem;
+}
+
+.leading-normal{
+  line-height: 1.5;
+}
+
+.text-green-600{
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 
-.text-vgreen {
+.text-vgreen{
   --tw-text-opacity: 1;
   color: rgb(68 166 89 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-yellow-400 {
+.text-yellow-400{
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity, 1));
 }
 
+.underline{
+  text-decoration-line: underline;
+}
+
+.overline{
+  text-decoration-line: overline;
+}
+
+.line-through{
+  text-decoration-line: line-through;
+}
+
+.no-underline{
+  text-decoration-line: none;
+}
+
+.decoration-inherit{
+  text-decoration-color: inherit;
+}
+
+.decoration-red-500{
+  text-decoration-color: #ef4444;
+}
+
+.decoration-red-600{
+  text-decoration-color: #dc2626;
+}
+
+.decoration-slate-300{
+  text-decoration-color: #cbd5e1;
+}
+
+.decoration-dotted{
+  text-decoration-style: dotted;
+}
+
+.decoration-wavy{
+  text-decoration-style: wavy;
+}
+
+.decoration-4{
+  text-decoration-thickness: 4px;
+}
+
+.underline-offset-8{
+  text-underline-offset: 8px;
+}
+
+.antialiased{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased{
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
 /* custom css */
 
-@media (min-width: 640px) {
-  .sm\:text-base {
+@media (min-width: 640px){
+  .sm\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
   }
 }
 
-@media (min-width: 768px) {
-  .md\:text-lg {
+@media (min-width: 768px){
+  .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
   }

@@ -10,19 +10,19 @@
     <h1 class="[ text-green-600 ] [ font-bold ] ">
         > text-green-600
     </h1>
-    <br>
+    <hr><br>
     <h2 class="text-yellow-400">
         > text-yellow-400
     </h2>
-    <br>
+    <hr><br>
     <div class="[ text-white ] [ bg-black ]">
         > background 
     </div>
-    <br>
+    <hr><br>
     <div class="border-4 border-green-100">
         > border, border-green
     </div>
-    <br>
+    <hr><br>
     <div class="text-vgreen">
         > custom color
         ->tailwind.config.js
@@ -32,13 +32,13 @@
             }
         }
     </div>
-    <br>
+    <hr><br>
     <div class="[ text-xs ][ sm:text-base md:text-lg ]">
         media query text
         min-width is used
         so mobile first approach
-        <br>
-        for custom screen size<br>
+        <hr><br>
+        for custom screen size<hr><br>
         screens:{
             sm:'480px',
             md:'768px',
@@ -46,14 +46,15 @@
             xl:'1440px',
         }
     </div>
-    <br>
+    <hr><br>
     <div class="bg-[#badf55]">
         plugin
-        helpers to create styleseet with js <br>
+        helpers to create styleseet with js <hr><br>
         bg-[#badf55] (arbitary value)
     </div>
-    <br>
+    <hr><br>
     <div>
+        <h1 class="bg-red-700 text-center">typography</h1>
         <h1 class="text-3xl"> text-3xl</h1>
         <h1 class="text-2xl">Title 1    text-2xl</h1>
         <h2 class="text-xl">Title 2  text-xl</h2>
@@ -61,8 +62,91 @@
         <p class="text-base">regular paragraph   text base</p>
         <p class="text-sm">desc para -text-sm</p>
         <p class="text-xs">text-xs</p>
-
+        <hr><br>
+         <p class="font-sans">font-sans</p>
+        <p class="font-mono"> font mono</p>
+        <hr><br>
+        <p class="antialiased"> font soothing antialiased</p>
+        <p class="subpixel-antialiased">
+            font-smoothing subpixel-antialiased
+        </p>
+        <hr><br>
+        <p class="italic">italic</p>
+        <p class="not-italic">not-italic</p>
+        <hr><br>
+        <p class="underline"> underline</p>
+        <p class="overline"> overline</p>
+        <p class="line line-through"> line line-through</p>
+        <p class="no-underline" > no underline</p>
+        <hr><br>
+        <p class=" underline decoration-red-500">decoration-inherit</p>
+        <p class="underline decoration-slate-300"> decoration-slate-300</p>
+        <hr><br>
+        <p class="underline decoration-slate-300 decoration-dotted"> decoration-dotted</p>
+        <p class="[ underline ]  [ decoration-red-500 decoration-wavy ]"> decoration-wavy</p>
+        <p class="underline [ decoration-wavy decoration-4 decoration-red-600 ]">
+            decoration-thickness
+        </p>
+        <hr><br>
+        <p class="underline-offset-8  underline"> underline-offset-8</p>
+        <hr><br>
+        
+        <p class="leading-5">line height leading 5</p>
+        <p class="leading-normal">line height leading normal</p>
+        <hr><br>
+        <p class="capitalize">
+            capitalize
+        </p>
+        <p class="lowercase">
+            lowercase
+        </p>
+        <p class="uppercase">
+            uppercase
+        </p>
+        <p class="normal-case">
+            normal-case
+        </p>
+        <hr><br>
+        <p class="truncate"> truncate is a long sensentence whihc wants to be tuncated</p>
+        <p class="truncate"> truncate is a long sensentence whihc wants to be tuncated</p>
+    <br><hr>
+    <h1 class="bg-red-600 text-center">whitespace</h1>
+    <p class="whitespace-nowrap">
+        whitespace-nowrap-
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit ipsum 
+    </p>
+    <hr>
+    <p class="whitespace-pre">
+        whitespace-pre-
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit ipsum eligendi aliquid illo placeat enim nesciunt 
+    </p>
+    <hr>
+    <p class="whitespace-pre-line">
+        whitespace-pre-line -
+        preserve line
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit ipsum eligendi aliquid illo placeat enim nesciunt
+    </p>
     </div>
+    <hr><br>
+    <h1 class="bg-teal-500 text-center">word break</h1>
+    <div>
+        <p class="break-normal">
+            break-normal  -
+            Lorem ipsum dolor sit ametsdfsadfasdfkjshdfuashdfiuashfuhasdfuhasdfuhasoudfhasduhfasudhfouasdhfouasdhfuoasdhfuoashf.
+        </p>
+        <br>
+        <p class="break-words">
+            break-words  -
+            Lorem ipsum dolor sit ametsdfsadfasdfkjshdfuashdfiuashfuhasdfuhasdfuhasoudfhasduhfasudhfouasdhfouasdhfuoasdhfuoashf.
+        </p>
+        <br>
+        <p class="break-all">
+            break-words  -
+            Lorem ipsum dolor sit ametsdfsadfasdfkjshdfuashdfiuashfuhasdfuhasdfuhasoudfhasduhfasudhfouasdhfouasdhfuoasdhfuoashf.
+        </p>
+    </div>
+    
+    
 
 
 
